@@ -11,6 +11,8 @@ import java.util.Objects;
 @Table(name = "usuario", schema = "financas")
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Usuario {
 
     @Id
