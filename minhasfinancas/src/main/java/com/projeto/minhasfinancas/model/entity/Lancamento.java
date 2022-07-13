@@ -48,7 +48,4 @@ public class Lancamento {
     @Column(name = "status")
     @Enumerated(value = EnumType.STRING)
     private StatusLancamento status;
-
-    public Lancamento() {
-    }
 }
