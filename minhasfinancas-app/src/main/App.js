@@ -1,14 +1,14 @@
 import React from 'react';
-import { useState } from 'react';
-import Login from './views/login';
+
+import Rotas from './rotas';
 
 import 'bootswatch/dist/flatly/bootstrap.css';
-import './App.css'
+import '../App.css'
 
 function App() {
   return (
     <>
-      <Login />
+      <Rotas />
     </>
   )
 }
